@@ -21,26 +21,6 @@ header {
   
 }
 
-#logo {
-  font-size: 130%;
-  margin-top: 25px;
-}
-
-#navbar {
-margin: 25px;
-text-align: right;
-margin-top: -50px;
-}
-
-ul.nav {
-  text-align: right;
-  display: inline;
-  text-transform: capitalize;
- 
-}
-
-
-
 h1 {
   text-transform: capitalize;
   background-image: url("https://images.pexels.com/photos/681331/pexels-photo-681331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -55,19 +35,16 @@ h1 {
 }
 
 
-h2 {
-   text-transform: capitalize;
-     text-align: center;
-}
 
-a{
-   text-decoration: none;
-   color: white;
-   text-transform: capitalize;
-   
-}
+ul.nav {
+  text-align: right;
+  display: inline;
+  text-transform: capitalize;
+  size: 100%;
+  margin: 5px;
+  
 
-
+  }
 
 .inputBox {
   background-color: black;
@@ -81,6 +58,56 @@ input, select {
   border-radius: 10px;
   border-color: transparent;
   
+}
+
+#logo {
+  font-size: 130%;
+  margin-top: 25px;
+}
+
+#navbar {
+margin: 25px;
+text-align: right;
+margin-top: -75px;
+}
+
+#call {
+background-image: url("https://cdn-icons.flaticon.com/png/512/2354/premium/2354127.png?token=exp=1645063282~hmac=85831fe85a4e749eb589741a2e0085ca"); 
+background-repeat: no-repeat;
+background-position: contain;
+background-size: contain;
+position: center;
+
+}
+
+#email {
+background-image: url("https://cdn-icons-png.flaticon.com/512/1250/1250973.png"); 
+background-repeat: no-repeat;
+background-position: contain;
+background-size: contain;
+position: center;
+}
+
+#login {
+background-image: url("https://cdn-icons-png.flaticon.com/512/1828/1828503.png"); 
+background-repeat: no-repeat;
+background-position: contain;
+background-size: contain;
+position: center;
+} 
+
+#menu {
+background-image: url("https://cdn-icons-png.flaticon.com/512/3388/3388694.png"); 
+background-repeat: no-repeat;
+background-position: contain;
+background-size: contain;
+position: center;
+
+}
+
+h2 {
+   text-transform: capitalize;
+     text-align: center;
 }
 
 .box-container {
@@ -173,16 +200,17 @@ border-radius: 26px 26px 0 0;
 .content {
   height: 100px;
   margin-top: 160px;
-  font-size: 60%;
+  font-size: 80%;
   text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
 .info, .price  {
   color: white;
-  
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
   width: auto;
   text-transform: capitalize;
   display: inline;
@@ -209,11 +237,12 @@ h3, .details {
   }
 
   .location, .details {
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   .buttons {
-    margin-top: 20px;
+    margin-top: 10px;
+    text-decoration: none;
   }
 
   .footer {
