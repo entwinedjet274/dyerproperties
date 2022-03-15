@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Basic Web Page</title>
+  <title>Contact DyerProperties</title>
    <meta name="viewport" content="width=device-width,initial-scale=1" >
-
+   <link href='index.html' rel='stylesheet'>
   <link href='style.css' rel='stylesheet'>
 </head>
 <body>
    <section >
-<header class="head"> 
- 
- <ul id="logo">DyerProperties</ul>
- 
-  <nav id="navbar">
+<header class="head2"> 
 
-  <ul class="nav" id="call">(123)-123-1234</ul>
-  <ul class="nav" id="email">adasdf@sfdsf.com</ul>
- <ul class="nav" id="apply"></ul>
+ <ul class="logo"><a href="index.html" rel="stylesheet">DyerProperties</a></ul>
+ 
+ 
+
+
+ 
   
 
 </nav>
@@ -25,11 +24,17 @@
 
 </section>
 
+<section >
+     
+                <h2 id="heading">Contact Us</h2>
+   <h4 id="call">(123)-123-1234</h4>
+ </section>
+
 <section class="applicaion" id="app">
 
 <div class="inputBox2" >
 
-<h2 class="heading" id="h1">Rental Application</h2>
+<h2 class="heading" id="h1">Email Notification</h2>
 </div>
    
  <div class="box-container2"> 
@@ -51,9 +56,7 @@
             
                 <div class="price">
                     <h3>$25,000/mo</h3>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-envelope"></a>
-                    <a href="#" class="fas fa-phone"></a>
+            
                 </div>
 
   </div>
@@ -75,19 +78,18 @@
 <form id="contactform" action="https://formsubmit.io/send/f5006014-8877-430b-aff4-16b13ab3334b" method="POST">
     <input name="_redirect" type="hidden" id="name" value="https://entwinedjet274.github.io/dyerproperties/">
 
-    <input name="name" type="text"  id="name2" placeholder="Full Name">
-    <input name="email" type="email" id="email2" placeholder="Email">
-    <input name="tel" type="tel" id="tel" placeholder="Phone Number">
-    <input name="apartment" type="text" id="apart" placeholder="Apartment">
+    <input class="app" name="name" type="text"  id="name2" placeholder="Full Name" required>
+    <input  class="app" name="email" type="email" id="email2" placeholder="Email" required> 
+    <input class="app" name="tel" type="tel" id="tel" placeholder="Phone Number" required>
+    <input class="app" name="apartment" type="text" id="apart" placeholder="Apartment" required>
 
     <input name="_formsubmit_id" type="text" style="display:none">
 
-    <input value="Submit" type="submit">
+    <input class="app" value="Submit" type="submit">
 </form>
  
 
-</div>
-     </div>
+
 </section>
 
   <script src='script.js'></script>

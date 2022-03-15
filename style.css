@@ -9,16 +9,16 @@ body {
   width: auto;
 }
 
-/*header section*/
+/*header section of homepage*/
 
 header {
-  height: 60px;
+  height: 40px;
   background: #7BDACA;
-  text-align: left;
+  text-align: center;
   Font-Family: 'Rufina', Serif;
   Font-Size: 20px;
-  padding: 5px;
-  
+  padding: 1px;
+  width: 100%;
 }
 
 ul.nav {
@@ -31,56 +31,20 @@ ul.nav {
 
   }
 
-h1 {
-  text-transform: capitalize;
-  background-image: url("https://images.pexels.com/photos/681331/pexels-photo-681331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  height: 400px;
-  width: stretch;
-  margin: 0px;
-  position: center;
-  color: #FA6B32;
-}
-
-
-
-
-
-.inputBox {
-  background-color: black;
-  height: 20px;
-  margin-top: -10px;
-  padding: 20px;
-  
-}
-
-.heading {
-  background-color: black;
-  height: 40px;
-  margin-top: -10px;
-  padding: 20px;
-  font-size: 40px;
-}
-
-input {
-  border-radius: 10px;
-  border-color: transparent transparent;
-  margin: 15px;
-  
-}
-
-ul, #logo {
-  font-size: 130%;
-  margin-top: 25px;
+ .logo {
+  font-size: 100%;
+  margin-top: 5px;
   text-align: left;
+ 
 }
-
-#navbar {
+ a {
+       text-decoration: none;
+       color: white;
+    }
+.navbar {
 margin: 25px;
 text-align: right;
-margin-top: -75px;
+
 }
 
 #call {
@@ -92,29 +56,26 @@ position: center;
 font-size: 20px;
 }
 
-#email {
- font-size: 20px;
-background-repeat: no-repeat;
-background-position: contain;
-background-size: contain;
-position: center;
+/* first section of home page*/
+
+h1 {
+  text-transform: capitalize;
+  background-image: url("https://images.pexels.com/photos/681331/pexels-photo-681331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 250px;
+  width: stretch;
+  margin-top: auto;
+  position: center;
+  color: #FA6B32;
 }
 
-.apply {
-background-image: url("https://cdn-icons.flaticon.com/png/128/2989/premium/2989815.png?token=exp=1646250301~hmac=528f05eb61229b2be65af79bdbea6558"); 
-background-repeat: no-repeat;
-background-position: contain;
-background-size: contain;
-position: center;
-} 
-
-#menu {
-background-image: url("https://cdn-icons-png.flaticon.com/512/3388/3388694.png"); 
-background-repeat: no-repeat;
-background-position: contain;
-background-size: contain;
-position: center;
-
+#heading {
+  background-color: black;
+  height: 50px;
+  margin-top: -20px;
+  font-size: 40px;
 }
 
 h2 {
@@ -122,15 +83,19 @@ h2 {
      text-align: center;
 }
 
+/* secound section of homepage*/
+
+
+
+
+
+
+
 .box-container {
 display: inline;
 
 }
-.box-container2 {
-display: inline-flex;
 
-
-}
 
 .box {
   height: 300px;
@@ -142,39 +107,22 @@ display: inline-flex;
 
   margin: 10px;
   background-color: black;
-
-
-}
-
-
-.box2 {
- height: 600px;
-  width: 600px;
-  border: solid;
-  border-color: #7BDACA;
-  border-radius: 50px 50px 50px 50px;
-  display: inline-flex;
-
-  margin-top: 0px;
-  background-color: black;
   
+
 }
+
+
+
 
 .image-container {
   
-border-radius: 26px 26px 0 0;
+border-radius: 28px 28px 0 0;
   height: 150px;
   width: 300px;
   
 }
 
-.image-container2 {
-  
-border-radius: 45px 0 0 0;
-  height: 300px;
-  width: 300px;
-  
-}
+
 #pic {
   background-image: url("https://images.pexels.com/photos/565324/pexels-photo-565324.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-size: 100% 100%;
@@ -244,15 +192,7 @@ border-radius: 45px 0 0 0;
   margin-right: 10px;
 }
 
-.content2 {
-  height: 200px;
-  width:300px;
-  margin-top: 40px;
-  font-size: 120%;
-  text-align: center;
-  
 
-}
 
 .info, .price  {
   color: white;
@@ -287,18 +227,189 @@ h3, .details {
     margin-top: 15px;
   }
 
+  .btn {
+    text-decoration: none;
+    color: #7BDACA;
+  }
   .buttons {
     margin-top: 10px;
     text-decoration: none;
   }
 
-  .contactform {
- 
-  margin-top: 80px;
-  }
-
-  .footer {
+    .footer {
     height: 50px;
     background-color: #7BDACA;
   }
 
+/* content for the secound page*/
+
+.head2 {
+  margin-bottom: 20px;
+}
+
+.logo2 {
+  font-size: 100%;
+  margin-top: 5px;
+  text-align: left;
+ 
+}
+
+.box-container2 {
+display: inline-flex;
+
+
+}
+
+  .box2 {
+ height: 450px;
+  width: 600px;
+  border: solid;
+  border-color: #7BDACA;
+  border-radius: 50px 50px 50px 50px;
+  display: inline-flex;
+
+  margin-top: 0px;
+  background-color: black;
+  
+}
+.content2 {
+  height: 200px;
+  width:300px;
+  margin-top: 40px;
+  font-size: 120%;
+  text-align: center;
+  
+
+}
+
+
+
+.image-container2 {
+  
+border-radius: 48px 0 0 0;
+  height: 200px;
+  width: 300px;
+  
+} 
+ 
+.contactform {
+ 
+  margin-top: 80px;
+  }
+
+input {
+  border-radius: 10px;
+  border-color: transparent transparent;
+}
+
+
+.app {
+text-align: center;  
+margin: 15px 15px 10px 20px;
+display: inline;
+position: center;
+}
+
+
+
+
+@media (min-width:320px) {
+  
+
+  .logo {
+    font-size: 100%;
+    margin-top: 5px;
+    text-align: center;
+     padding: 1px;
+    
+  }
+  
+  header {
+    height: 40px;
+    background: #7BDACA;
+    text-align: center;
+    Font-Family: 'Rufina', Serif;
+    Font-Size: 20px;
+   
+    }
+
+  #heading {
+    background-color: black;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 30px;
+   }
+
+  h2 {
+    text-transform: capitalize;
+      text-align: center; 
+     margin: 0px;
+    }
+
+ .box {
+    margin: 10px 0px 10px 0px;
+  }
+
+.image-container {
+  border-radius: 27px 27px 0 0;
+  
+    }
+
+    /* secound page*/
+
+    .logo2 {
+      font-size: 100%;
+      margin-top: 5px;
+      text-align: center;
+      
+    }
+    #call {
+      font-size: small;
+      text-align: center;
+display: block;
+    }
+
+   
+
+.box2 {
+  height: 600px;
+  width: 250px;
+  border: solid;
+  border-color: #7BDACA;
+  border-radius: 50px 50px 50px 50px;
+  display: inline;
+  margin-top: 0px;
+  background-color: black;
+  
+}
+
+.image-container2 {
+  width: auto;
+  border-radius: 46px 46px 0 0;
+  height: 150px;
+ 
+}
+
+.content2 {
+  height: 200px;
+ display: inline;
+  
+  font-size: 100%;
+  text-align: center;
+}
+
+  }
+
+  @media (hover: hover) {
+    .box:hover {
+      background: grey;
+
+    }
+
+
+
+
+
+  }
+
+  
