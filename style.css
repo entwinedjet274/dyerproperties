@@ -403,7 +403,7 @@ display: block;
   @media (hover: hover) {
     .box:hover {
       background: grey;
-
+      transform: scale(1.1);
     }
 
 
