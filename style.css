@@ -3,7 +3,7 @@ body {
   color: white;
   margin: 0px;
   Font-Family: 'Rufina', Serif;
-  Font-Size: 16px;
+  Font-Size: 1rem;
   text-align: center;
   overflow-x: none;
   width: auto;
@@ -12,7 +12,7 @@ body {
 /*header section of homepage*/
 
 header {
-  height: 40px;
+  height: 2.2rem;
   background: #7BDACA;
   text-align: center;
   Font-Family: 'Rufina', Serif;
@@ -40,7 +40,9 @@ ul.nav {
  a {
        text-decoration: none;
        color: white;
+       
     }
+
 .navbar {
 margin: 25px;
 text-align: right;
@@ -122,6 +124,19 @@ border-radius: 28px 28px 0 0;
   
 }
 
+
+a.btn{
+
+background-color: #7BDACA;
+ border-radius: 0.3rem; 
+}
+
+a,#btn {
+    background-image: url("https://www.flaticon.com/premium-icon/click_2725783");  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
 
 #pic {
   background-image: url("https://images.pexels.com/photos/565324/pexels-photo-565324.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -229,8 +244,10 @@ h3, .details {
 
   .btn {
     text-decoration: none;
-    color: #7BDACA;
+    color: white;
+    text-align: center;
   }
+
   .buttons {
     margin-top: 10px;
     text-decoration: none;
@@ -398,11 +415,94 @@ display: block;
   text-align: center;
 }
 
+
+  }
+
+  @media (min-width: 33rem) {
+
+
+  
+
+     h1 {
+      height: 23rem;
+     }
+
+    h2 {
+      text-transform: capitalize;
+        text-align: center; 
+       margin: 0px;
+      }
+  
+   .box {
+      margin: 10px 0px 10px 0px;
+    }
+  
+  .image-container {
+    border-radius: 27px 27px 0 0;
+    
+      }
+  
+      /* secound page*/
+  
+      .logo2 {
+        font-size: 100%;
+        margin-top: 5px;
+        text-align: center;
+        
+      }
+      #call {
+        font-size: small;
+        text-align: center;
+  display: block;
+      }
+  
+     
+  
+  .box2 {
+    height: 40rem;
+    width: 25rem;
+    border: solid;
+    border-color: #7BDACA;
+    border-radius: 50px 50px 50px 50px;
+    display: inline;
+    margin-top: 0px;
+    background-color: black;
+    
+  }
+  
+  .image-container2 {
+    width: auto;
+    border-radius: 46px 46px 0 0;
+    height: 14rem;
+   
+  }
+  
+  .content2 {
+    height: 200px;
+   display: inline;
+    
+    font-size: 100%;
+    text-align: center;
+  }
+  
+  
+.app{
+  width: 10rem;
+}
+
+
+
+  }
+
+  @media (min-width: 45rem) {
+    h1 {
+      height: 23.5rem;
+     }
   }
 
   @media (hover: hover) {
     .box:hover {
-      background: grey;
+      
       transform: scale(1.1);
     }
 
