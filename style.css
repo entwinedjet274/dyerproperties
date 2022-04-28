@@ -55,7 +55,7 @@ background-repeat: no-repeat;
 background-position: contain;
 background-size: contain;
 position: center;
-font-size: 20px;
+text-size-adjust: 20px;
 }
 
 /* first section of home page*/
@@ -68,7 +68,7 @@ h1 {
   background-size: 100% 100%;
   height: 250px;
   width: stretch;
-  margin-top: auto;
+  margin-top: 0rem;
   position: center;
   color: #FA6B32;
 }
@@ -285,7 +285,7 @@ display: inline-flex;
   border-radius: 50px 50px 50px 50px;
   display: inline-flex;
 
-  margin-top: 0px;
+  margin-top: 0rem;
   background-color: black;
   
 }
@@ -325,9 +325,12 @@ text-align: center;
 margin: 15px 15px 10px 20px;
 display: inline;
 position: center;
+
 }
 
-
+#app {
+  margin-top: 2rem;
+}
 
 
 @media (min-width:200px) {
@@ -415,6 +418,11 @@ display: block;
   text-align: center;
 }
 
+#heading2 {
+  background-color: black;
+  height: 3rem;
+  
+}
 
   }
 
@@ -498,6 +506,9 @@ display: block;
     h1 {
       height: 23.5rem;
      }
+
+
+
   }
 
   @media (hover: hover) {
